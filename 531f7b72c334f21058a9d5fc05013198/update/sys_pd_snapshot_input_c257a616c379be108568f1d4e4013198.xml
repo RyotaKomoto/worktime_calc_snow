@@ -38,7 +38,7 @@
         <label>test</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="1_">4e57a616c379be108568f1d4e401318e</model>
+        <model display_value="">4e57a616c379be108568f1d4e401318e</model>
         <model_id>4e57a616c379be108568f1d4e401318e</model_id>
         <model_table/>
         <name>var__m_sys_pd_snapshot_input_4e57a616c379be108568f1d4e401318e</name>

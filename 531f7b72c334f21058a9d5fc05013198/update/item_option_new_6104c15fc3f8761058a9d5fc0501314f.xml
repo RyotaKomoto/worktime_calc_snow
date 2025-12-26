@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="出勤時登録">f5fb8c8bc374f21058a9d5fc05013113</cat_item>
+        <cat_item display_value="">f5fb8c8bc374f21058a9d5fc05013113</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>

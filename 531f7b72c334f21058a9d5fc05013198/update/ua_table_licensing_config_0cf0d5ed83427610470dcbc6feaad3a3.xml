@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_1813832_0_workstyle</name>
+        <name>x_1813832_0_x_monthly_working_hours</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
-        <sys_created_on>2025-10-30 04:11:03</sys_created_on>
-        <sys_id>ffa488bdc39572108568f1d4e4013113</sys_id>
+        <sys_created_on>2025-10-31 05:55:48</sys_created_on>
+        <sys_id>0cf0d5ed83427610470dcbc6feaad3a3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1813832_0_workstyle</sys_name>
+        <sys_name>x_1813832_0_x_monthly_working_hours</sys_name>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
         <sys_policy/>
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
-        <sys_update_name>ua_table_licensing_config_ffa488bdc39572108568f1d4e4013113</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_0cf0d5ed83427610470dcbc6feaad3a3</sys_update_name>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-10-30 04:11:03</sys_updated_on>
+        <sys_updated_on>2025-10-31 05:55:48</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

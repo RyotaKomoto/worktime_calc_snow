@@ -34,7 +34,6 @@
         <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=80e60a02c3753e108568f1d4e40131ab"/>
     <sys_pd_process_input action="delete_multiple" query="model=80e60a02c3753e108568f1d4e40131ab^sys_idNOT IN6ca7719ac3b1be108568f1d4e4013144,c3e6ca02c3753e108568f1d4e4013147"/>
     <sys_pd_process_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -229,7 +228,6 @@
         <sys_updated_on>2025-12-16 08:10:29</sys_updated_on>
         <visible_rule/>
     </sys_pd_lane>
-    <sys_translated_text action="delete_multiple" query="documentkey=b2f89dd06089f72542b7b83ef4f1e611"/>
     <sys_variable_value action="delete_multiple" query="document_key=b2f89dd06089f72542b7b83ef4f1e611"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -256,7 +254,6 @@
         <sys_updated_on>2025-12-16 08:11:13</sys_updated_on>
         <visible_rule/>
     </sys_pd_lane>
-    <sys_translated_text action="delete_multiple" query="documentkey=c6251ed52904dd00aec6e7acdc80d869"/>
     <sys_variable_value action="delete_multiple" query="document_key=c6251ed52904dd00aec6e7acdc80d869"/>
     <sys_pd_lane action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -283,7 +280,6 @@
         <sys_updated_on>2025-12-16 08:12:33</sys_updated_on>
         <visible_rule/>
     </sys_pd_lane>
-    <sys_translated_text action="delete_multiple" query="documentkey=02a31e9e20d37f95fc407b179c062b31"/>
     <sys_variable_value action="delete_multiple" query="document_key=02a31e9e20d37f95fc407b179c062b31"/>
     <sys_pd_timer_attributes action="delete_multiple" query="process_definition=80e60a02c3753e108568f1d4e40131ab"/>
     <sys_pd_activity action="delete_multiple" query="process_definition=80e60a02c3753e108568f1d4e40131ab^sys_idNOT INf21faa131fa24ca00c0823d97c43f125,1ac0bde6a5263387dd423f1c38331c24"/>
@@ -325,7 +321,6 @@
         <type_vals/>
         <variant/>
     </sys_pd_activity>
-    <sys_translated_text action="delete_multiple" query="documentkey=f21faa131fa24ca00c0823d97c43f125"/>
     <sys_variable_value action="delete_multiple" query="document_key=f21faa131fa24ca00c0823d97c43f125"/>
     <sys_pd_activity action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -367,7 +362,6 @@
         <type_vals/>
         <variant/>
     </sys_pd_activity>
-    <sys_translated_text action="delete_multiple" query="documentkey=1ac0bde6a5263387dd423f1c38331c24"/>
     <sys_variable_value action="delete_multiple" query="document_key=1ac0bde6a5263387dd423f1c38331c24"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_pd_activity</document>
@@ -1274,5 +1268,4 @@
         <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
         <view_type>DIAGRAM</view_type>
     </sys_pd_process_definition>
-    <sys_translated_text action="delete_multiple" query="documentkey=80e60a02c3753e108568f1d4e40131ab"/>
 </record_update>

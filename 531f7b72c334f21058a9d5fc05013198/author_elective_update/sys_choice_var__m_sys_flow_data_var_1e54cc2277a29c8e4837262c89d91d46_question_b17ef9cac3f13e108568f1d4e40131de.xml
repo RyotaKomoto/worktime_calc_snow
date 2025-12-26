@@ -6,13 +6,12 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin_fujisawa_shouma</sys_created_by>
             <sys_created_on>2025-12-15 07:11:24</sys_created_on>
-            <sys_id>b17ef9cac3f13e108568f1d4e40131de</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>question_a82868bea2409e20e9d3041e25b092f2</sys_name>
             <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
             <sys_policy/>
             <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
-            <sys_update_name>sys_choice_var__m_sys_flow_data_var_1e54cc2277a29c8e4837262c89d91d46_question_a82868bea2409e20e9d3041e25b092f2</sys_update_name>
+            <sys_update_name>sys_choice_var__m_sys_flow_data_var_1e54cc2277a29c8e4837262c89d91d46_question_b17ef9cac3f13e108568f1d4e40131de</sys_update_name>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
             <sys_updated_on>2025-12-15 07:11:24</sys_updated_on>
         </sys_choice_set>
@@ -30,7 +29,6 @@
             <sys_created_on>2025-12-15 07:11:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>797ef9cac3f13e108568f1d4e40131dc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
             <sys_updated_on>2025-12-15 07:11:24</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2025-12-15 07:11:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd7ef9cac3f13e108568f1d4e40131e4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
             <sys_updated_on>2025-12-15 07:11:25</sys_updated_on>

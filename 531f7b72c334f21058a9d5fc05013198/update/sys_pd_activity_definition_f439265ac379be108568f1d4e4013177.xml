@@ -68,6 +68,4 @@
         <value>cp</value>
     </sys_translated_text>
     <sys_variable_value action="delete_multiple" query="document_key=f439265ac379be108568f1d4e4013177"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_db68e2d6c379be108568f1d4e401319e^id=f439265ac379be108568f1d4e4013177"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_db68e2d6c379be108568f1d4e401319e^id=f439265ac379be108568f1d4e4013177"/>
 </record_update>

@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>true</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="出勤時登録">f5fb8c8bc374f21058a9d5fc05013113</cat_item>
+        <cat_item display_value="">f5fb8c8bc374f21058a9d5fc05013113</cat_item>
         <cat_variable>IO:78dd3b0bc3b0761058a9d5fc05013106</cat_variable>
         <condition/>
         <description/>

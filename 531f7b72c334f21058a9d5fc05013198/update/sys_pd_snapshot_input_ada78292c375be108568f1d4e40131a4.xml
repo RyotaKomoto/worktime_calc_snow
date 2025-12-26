@@ -38,7 +38,7 @@
         <label>親レコード</label>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
-        <model display_value="1_">25a78292c375be108568f1d4e4013157</model>
+        <model display_value="">25a78292c375be108568f1d4e4013157</model>
         <model_id>25a78292c375be108568f1d4e4013157</model_id>
         <model_table/>
         <name>var__m_sys_pd_snapshot_input_25a78292c375be108568f1d4e4013157</name>

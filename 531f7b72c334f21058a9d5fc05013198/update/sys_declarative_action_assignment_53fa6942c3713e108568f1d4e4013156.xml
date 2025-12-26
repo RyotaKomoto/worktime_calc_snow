@@ -70,7 +70,7 @@
         <table>x_1813832_0_working_hours_table</table>
         <tooltip/>
         <ui_component display_value="now-playbook-experience">9d0bc73916d784d8692b89e9553124dc</ui_component>
-        <view display_value="Workspace" name="workspace">025b9101f46322104f3475eb2440bc2b</view>
+        <view display_value="Workspace" name="workspace">4077c54183a13210470dcbc6feaad340</view>
         <workspace/>
         <write_access>false</write_access>
     </sys_declarative_action_assignment>
