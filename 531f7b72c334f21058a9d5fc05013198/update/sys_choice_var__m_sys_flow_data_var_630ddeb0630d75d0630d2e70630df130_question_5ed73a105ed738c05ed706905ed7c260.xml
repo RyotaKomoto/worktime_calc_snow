@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="question_5ed73a105ed738c05ed706905ed7c260" table="var__m_sys_flow_data_var_630ddeb0630d75d0630d2e70630df130" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>question_5ed73a105ed738c05ed706905ed7c260</element>
+            <name>var__m_sys_flow_data_var_630ddeb0630d75d0630d2e70630df130</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 04:22:10</sys_created_on>
+            <sys_id>f6b7510ac37dfa108568f1d4e4013144</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>question_5ed73a105ed738c05ed706905ed7c260</sys_name>
+            <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_flow_data_var_630ddeb0630d75d0630d2e70630df130_question_5ed73a105ed738c05ed706905ed7c260</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 04:22:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_5ed73a105ed738c05ed706905ed7c260</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>はい</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_630ddeb0630d75d0630d2e70630df130</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 04:22:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>beb7510ac37dfa108568f1d4e4013142</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 04:22:10</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>question_5ed73a105ed738c05ed706905ed7c260</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>いいえ</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_630ddeb0630d75d0630d2e70630df130</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 04:22:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>feb7510ac37dfa108568f1d4e401314b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 04:22:11</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

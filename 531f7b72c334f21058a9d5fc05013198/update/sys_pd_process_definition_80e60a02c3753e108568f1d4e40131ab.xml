@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>1日の勤怠時間入力手順</label>
+        <name>1_</name>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type/>
+        <restartable>RESTARTABLE_TRUE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_always</run_strategy>
+        <run_strategy_on_process_definition>true</run_strategy_on_process_definition>
+        <schema_version>3</schema_version>
+        <snapshot display_value="1_">8a29171ac331fe108568f1d4e4013152</snapshot>
+        <start_non_blocking>true</start_non_blocking>
+        <status>published</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 07:48:09</sys_created_on>
+        <sys_id>80e60a02c3753e108568f1d4e40131ab</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>1日の勤怠時間入力手順</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_process_definition_80e60a02c3753e108568f1d4e40131ab</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=80e60a02c3753e108568f1d4e40131ab"/>
+    <sys_pd_process_input action="delete_multiple" query="model=80e60a02c3753e108568f1d4e40131ab^sys_idNOT IN6ca7719ac3b1be108568f1d4e4013144,c3e6ca02c3753e108568f1d4e4013147"/>
+    <sys_pd_process_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>test</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>test</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>test</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</model>
+        <model_id>80e60a02c3753e108568f1d4e40131ab</model_id>
+        <model_table/>
+        <name>var__m_sys_pd_process_input_80e60a02c3753e108568f1d4e40131ab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="">undefined</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_pd_process_input</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 01:20:03</sys_created_on>
+        <sys_id>6ca7719ac3b1be108568f1d4e4013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_process_input_6ca7719ac3b1be108568f1d4e4013144</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 01:20:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_pd_process_input>
+    <sys_pd_process_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>親レコード</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parent_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>親レコード</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</model>
+        <model_id>80e60a02c3753e108568f1d4e40131ab</model_id>
+        <model_table/>
+        <name>var__m_sys_pd_process_input_80e60a02c3753e108568f1d4e40131ab</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1813832_0_working_hours_table">x_1813832_0_working_hours_table</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_pd_process_input</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 07:48:22</sys_created_on>
+        <sys_id>c3e6ca02c3753e108568f1d4e4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>親レコード</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_process_input_c3e6ca02c3753e108568f1d4e4013147</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 07:48:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_pd_process_input>
+    <sys_pd_process_output action="delete_multiple" query="model=80e60a02c3753e108568f1d4e40131ab"/>
+    <sys_pd_lane action="delete_multiple" query="process_definition=80e60a02c3753e108568f1d4e40131ab^sys_idNOT INb2f89dd06089f72542b7b83ef4f1e611,c6251ed52904dd00aec6e7acdc80d869,02a31e9e20d37f95fc407b179c062b31"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Subflowのoutput調査</label>
+        <lane_condition/>
+        <name>__1</name>
+        <order>1</order>
+        <permission>{}</permission>
+        <process_definition display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>immediate</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 08:13:15</sys_created_on>
+        <sys_id>b2f89dd06089f72542b7b83ef4f1e611</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:10:29</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2f89dd06089f72542b7b83ef4f1e611"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b2f89dd06089f72542b7b83ef4f1e611"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>ステージ戻し調査</label>
+        <lane_condition/>
+        <name>_</name>
+        <order>2</order>
+        <permission>{}</permission>
+        <process_definition display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>after_items</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes>b2f89dd06089f72542b7b83ef4f1e611</starts_after_lanes>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 01:54:12</sys_created_on>
+        <sys_id>c6251ed52904dd00aec6e7acdc80d869</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:11:13</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=c6251ed52904dd00aec6e7acdc80d869"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c6251ed52904dd00aec6e7acdc80d869"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>プレイブック強制終了調査</label>
+        <lane_condition/>
+        <name>__2</name>
+        <order>3</order>
+        <permission>{}</permission>
+        <process_definition display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>after_items</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes>b2f89dd06089f72542b7b83ef4f1e611</starts_after_lanes>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 05:24:22</sys_created_on>
+        <sys_id>02a31e9e20d37f95fc407b179c062b31</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:12:33</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_translated_text action="delete_multiple" query="documentkey=02a31e9e20d37f95fc407b179c062b31"/>
+    <sys_variable_value action="delete_multiple" query="document_key=02a31e9e20d37f95fc407b179c062b31"/>
+    <sys_pd_timer_attributes action="delete_multiple" query="process_definition=80e60a02c3753e108568f1d4e40131ab"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=80e60a02c3753e108568f1d4e40131ab^sys_idNOT INf21faa131fa24ca00c0823d97c43f125,1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="プレイブック用">c2279796c3fdbe108568f1d4e401310f</activity_definition>
+        <ai_agent_execution_mode/>
+        <ai_agent_obj_additional_detail/>
+        <ai_agent_objective/>
+        <ai_agent_run_as>playbook_user</ai_agent_run_as>
+        <ai_agent_run_with_roles/>
+        <ai_agent_user/>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <enable_ai_agent>false</enable_ai_agent>
+        <inputs/>
+        <label>プレイブック用</label>
+        <lane display_value="Subflowのoutput調査">b2f89dd06089f72542b7b83ef4f1e611</lane>
+        <name>_</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>immediate</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities/>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <swim_lane/>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:17:23</sys_created_on>
+        <sys_id>f21faa131fa24ca00c0823d97c43f125</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:05</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=f21faa131fa24ca00c0823d97c43f125"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f21faa131fa24ca00c0823d97c43f125"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Instruction">b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
+        <ai_agent_execution_mode/>
+        <ai_agent_obj_additional_detail/>
+        <ai_agent_objective/>
+        <ai_agent_run_as>playbook_user</ai_agent_run_as>
+        <ai_agent_run_with_roles/>
+        <ai_agent_user/>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <enable_ai_agent>false</enable_ai_agent>
+        <inputs/>
+        <inputs/>
+        <label>説明</label>
+        <lane display_value="Subflowのoutput調査">b2f89dd06089f72542b7b83ef4f1e611</lane>
+        <name>__1</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule/>
+        <start_rule_name>after_items</start_rule_name>
+        <start_rule_vars/>
+        <starts_after_activities>f21faa131fa24ca00c0823d97c43f125</starts_after_activities>
+        <starts_after_branches/>
+        <starts_after_lanes/>
+        <swim_lane/>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>1ac0bde6a5263387dd423f1c38331c24</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:24:08</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>13571f92c331fe108568f1d4e40131c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:33</sys_updated_on>
+        <value/>
+        <variable display_value="Message">6c9c4ee31b630010affd0e55cc4bcbbf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>135797d2c331fe108568f1d4e401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <value>circle_info_outline</value>
+        <variable display_value="Icon">24bdf44673030010fe4a6da44cf6a707</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>175797d2c331fe108568f1d4e401316b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <value/>
+        <variable display_value="Tagline">661d304673030010fe4a6da44cf6a7b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>1f5797d2c331fe108568f1d4e4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">55628762c3211010381b60bc0eba8fec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>535797d2c331fe108568f1d4e4013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Associated Table">78f334b8c763001085f5532bb4c26009</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>575797d2c331fe108568f1d4e401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">9c6b7e22c3211010381b60bc0eba8f98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>5b5797d2c331fe108568f1d4e401316b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:33</sys_updated_on>
+        <value/>
+        <variable display_value="Title">49ed24875b00001070e4492c11f91aa5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>975797d2c331fe108568f1d4e4013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">8793d6feb70100101a6ddb91de11a98f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>9b5797d2c331fe108568f1d4e401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <value/>
+        <variable display_value="Associated Record">eb0474b8c763001085f5532bb4c260f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>db571f92c331fe108568f1d4e40131c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <value>no</value>
+        <variable display_value="Wait for user input">c23322e91bbb001094630f28cc4bcbae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>db5797d2c331fe108568f1d4e4013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">ec5d96eac7e60010bfbaf89f51c2605d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1ac0bde6a5263387dd423f1c38331c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>df5797d2c331fe108568f1d4e401316a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:33</sys_updated_on>
+        <value/>
+        <variable display_value="Description">267e68875b00001070e4492c11f91a34</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>9b5797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>d7571f92c331fe108568f1d4e40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>df5797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:33</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>&lt;p&gt;{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>93571f92c331fe108568f1d4e40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>575797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>1f571f92c331fe108568f1d4e40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>135797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>db5797d2c331fe108568f1d4e4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>d3571f92c331fe108568f1d4e40131c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value>{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>175797d2c331fe108568f1d4e4013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}test1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>5b5797d2c331fe108568f1d4e4013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}test2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>1b571f92c331fe108568f1d4e40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_2b8b42e31b630010affd0e55cc4bcbe9^id=1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_element_mapping action="delete_multiple" query="id=1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>9b5797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>d7571f92c331fe108568f1d4e40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>df5797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:33</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>&lt;p&gt;{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>93571f92c331fe108568f1d4e40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>575797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>1f571f92c331fe108568f1d4e40131c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>135797d2c331fe108568f1d4e4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>db5797d2c331fe108568f1d4e4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>d3571f92c331fe108568f1d4e40131c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value>{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>175797d2c331fe108568f1d4e4013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}test1</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>5b5797d2c331fe108568f1d4e4013168</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:21:07</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.f21faa131fa24ca00c0823d97c43f125.outputs.output}}test2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>1ac0bde6a5263387dd423f1c38331c24</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:18:18</sys_created_on>
+        <sys_id>1b571f92c331fe108568f1d4e40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:18:18</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=80e60a02c3753e108568f1d4e40131ab"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=f21faa131fa24ca00c0823d97c43f125"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=1ac0bde6a5263387dd423f1c38331c24"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=f21faa131fa24ca00c0823d97c43f125"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id=8a29171ac331fe108568f1d4e4013152^sys_idNOT IN8a29171ac331fe108568f1d4e4013152"/>
+    <sys_pd_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <derivatives>{"table":"sys_pd_snapshot","id":"8a29171ac331fe108568f1d4e4013152","name":"derivatives","type":"com.snc.pd.model.serialization.DerivativeFetcher"}</derivatives>
+        <name>1_</name>
+        <process_definition>{"table":"sys_pd_snapshot","id":"8a29171ac331fe108568f1d4e4013152","name":"process_definition","type":"com.snc.pd.model.ProcessDefinition"}</process_definition>
+        <process_dependencies>{"table":"sys_pd_snapshot","id":"8a29171ac331fe108568f1d4e4013152","name":"process_dependencies","type":"com.snc.pd.model.dependency.InstructionBasedProcessDependenciesCollection"}</process_dependencies>
+        <process_plan>{"table":"sys_pd_snapshot","id":"8a29171ac331fe108568f1d4e4013152","name":"process_plan","type":"com.snc.process_flow.engine.ProcessPlan"}</process_plan>
+        <source display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</source>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>8a29171ac331fe108568f1d4e4013152</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
+    </sys_pd_snapshot>
+    <sys_json_chunk action="delete_multiple" query="document_id=8a29171ac331fe108568f1d4e4013152"/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id=8a29171ac331fe108568f1d4e4013152^sys_idNOT IN0a29171ac331fe108568f1d4e4013155,0a29171ac331fe108568f1d4e4013156,4229171ac331fe108568f1d4e4013155,ce29171ac331fe108568f1d4e4013155"/>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <document_id display_value="1_">8a29171ac331fe108568f1d4e4013152</document_id>
+        <field>derivatives</field>
+        <length>2560</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>0a29171ac331fe108568f1d4e4013155</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/11STY/aMBD9Lz7nEMOmBG4UlgppYSUWlUO1QkM8IW4d2/LHdtFq/3vHIUmr3qzn8Zv34Q8mBVvoqFTGNLTIFoyfWcaM9Wzx4zVjF2WqX3T++MyYDxDSxGm5PW7331iHXLGfRH2VGldg4SKVDLfv6Lw0mi0mJc/zjEl/RB8OkZAalMeMOayMEycIVYNuH0VHddcSZPs/9Aau1+GiXtKR+ZsP2LIOOMnQHIwaxFiIHsUBwScFjN0Zj+aAPnYuCWnAryHAS3AI7SiqAqWkvr5UxuKwGp0zbofek9sBS3NfUzgrE3XYgR0uzBuNS4HnFqwlpgFX4MNjIlpBvDZhXFgr83uNAaQidywY27Eeb2k92zw9n1IdTlK4W7HUIl30OaSXvU5WTHk9u8wm1XT6UE94XpQwF0Vd5UXOp3xeEonUAZ0GtR97Jo6YPJ1b2i8oi9FcI5VYGXrwHrZirOBe8Q5+Gve33f4XPEkqQ6MbGzQB1LNFB4Hm/OM7VjEgfbZ8sNO7GAI30VVjuvT/NsYd0BoX/smQKusiHMOz4FCH7XoY8BqsbwyJJoclTOZ8xoEy4TXyvCy+lDUXD/iQMikmlIkwLaRgR+PGShQbZ9o78vkHe+Y5TiEDAAA=</data>
+        <document_id display_value="1_">8a29171ac331fe108568f1d4e4013152</document_id>
+        <field>process_plan</field>
+        <length>640</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>0a29171ac331fe108568f1d4e4013156</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <document_id display_value="1_">8a29171ac331fe108568f1d4e4013152</document_id>
+        <field>process_definition</field>
+        <length>2128</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>4229171ac331fe108568f1d4e4013155</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/61Vu27cMBD8FyLlFcvl+7oAaVKkShm4WC6XhgBHd7iT3Rj+91DW9dwAViGoGA3nJejdXG8Xlvv9h1xlbbLyIndzfjffKt1lf3ij20Lr9rOZ8/r68nIyL7TKd96Wt2Ub2F903VEVey6tQYRcesLgsaaanXTfrURrzfmPscRQm0QKGJ3LqTWPrlt22TnL6M3JdLSdyLpxR88EwJDRtZLYDyQG83QygOSsFEFoLvUSOntI1abCELG6/aiB4ojBSgtYwA9dQMJREnHjDC3HsqM+TobWYX673H7Lpncy6Kdehl+NmSnm8zSF5bluXSgKnhHbsvLl77I+PzIbvMUmSzUMI2LBY0mh9l6giYBzO+9QWpqzVPjAVOtBgIrkUKPn/qlPDp4gBwaEJOScSw6p1YMnPzC2HxgUlhpbRRtTw4H5wnYySAQCZJeCG2flEHO3zYuH8SLVnWeqedRHB6TDAUl7baPOSFBjOSQrhmAYjwjlEWECXzjWmCJCd0eE05g1H+JufRazttKZ5r3SWcxPigz3fGYz3Kd7ed2eL/85XUV/qukqfGqmq8ldsyfVDjSfwBftctqFYpbK6U7rUk5X9cNSTHc+jY9x/QOxxrVvrgcAAA==</data>
+        <document_id display_value="1_">8a29171ac331fe108568f1d4e4013152</document_id>
+        <field>process_dependencies</field>
+        <length>632</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>ce29171ac331fe108568f1d4e4013155</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_input action="delete_multiple" query="model=8a29171ac331fe108568f1d4e4013152^sys_idNOT IN4629171ac331fe108568f1d4e4013197,8a29171ac331fe108568f1d4e401315a"/>
+    <sys_pd_snapshot_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>親レコード</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>parent_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>親レコード</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="1_">8a29171ac331fe108568f1d4e4013152</model>
+        <model_id>8a29171ac331fe108568f1d4e4013152</model_id>
+        <model_table/>
+        <name>var__m_sys_pd_snapshot_input_8a29171ac331fe108568f1d4e4013152</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1813832_0_working_hours_table">x_1813832_0_working_hours_table</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_pd_snapshot_input</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>4629171ac331fe108568f1d4e4013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>親レコード</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_snapshot_input_4629171ac331fe108568f1d4e4013197</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_pd_snapshot_input>
+    <sys_pd_snapshot_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.snc.pd.designer.elementmapping.PlaybookInputElementMapper</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>test</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>test</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>test</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="1_">8a29171ac331fe108568f1d4e4013152</model>
+        <model_id>8a29171ac331fe108568f1d4e4013152</model_id>
+        <model_table/>
+        <name>var__m_sys_pd_snapshot_input_8a29171ac331fe108568f1d4e4013152</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="">undefined</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_pd_snapshot_input</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>8a29171ac331fe108568f1d4e401315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_snapshot_input_8a29171ac331fe108568f1d4e401315a</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_pd_snapshot_input>
+    <sys_pd_snapshot_output action="delete_multiple" query="model=8a29171ac331fe108568f1d4e4013152"/>
+    <sys_flow_compiled_flow action="delete_multiple" query="sys_id=8229171abf31fe105b970afe2790da57^sys_idNOT IN8229171abf31fe105b970afe2790da57"/>
+    <sys_flow_compiled_flow action="INSERT_OR_UPDATE">
+        <parent_snapshot_id/>
+        <signature/>
+        <snapshot_id>8a29171ac331fe108568f1d4e4013152</snapshot_id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>8229171abf31fe105b970afe2790da57</sys_id>
+    </sys_flow_compiled_flow>
+    <sys_flow_compiled_flow_chunk action="delete_multiple" query="document_id=8229171abf31fe105b970afe2790da57^sys_idNOT IN0e29171ac331fe108568f1d4e4013159,8a29171ac331fe108568f1d4e4013158,4229171ac331fe108568f1d4e4013158,c229171ac331fe108568f1d4e4013159"/>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/zWPQWsCQQyF/0vOe9hxXdS9VUQQWgUteCzpTkaDcbLMjkoR/7tR6/Xl+x4vVwiilxllZIHmClm7qWh7+P7rCBqYf662UIAm3nFc+I/oH4feyFvxNDetPsG6cmH0Oxq0VTUMA1fWY5z4OrRlXbrKTcZWwjFTiihLPD4M9wPWoWdKiT19Yddx3EETTyIFWCuTnyc9vpM99jPMuMmJ0MKA0pNxKGLa/4oX+XoocOTMaqPfOZ7yXhP5VVyTEPYmlLc758tg/AABAAA=</data>
+        <document_id display_value="Created 2025-12-16 17:26:07">8229171abf31fe105b970afe2790da57</document_id>
+        <field>flow_config_param</field>
+        <length>280</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>0e29171ac331fe108568f1d4e4013159</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/+2Z227bOBCG30XYSyPhQcdcrXNYrIE2CZLsAouiEChymBorS4Ykd2sEefcOJVlxLBqR03UdoLmzhzPDEf/PM7T94Og0/+8ihRlkVemcfHpwynxRSJgo58ShsTNq31+KGTy3/DWtfUICPhGESR54HCgJPT/UVLngEsqpSDr/cToVuINT5HmFxrkocMvb9aVskaYjp1rOzU7X4/P4+ubq7OL21qSQeW31ONVBEuBu3NWMEi8UkfK0JJ7ZLQrRdTbNJllZFQtZTfPM1EjQKL5tGCNv5EBR5MWdKO6hWu2OjhfGavEuYJ4X1TS7n+TOyYPzuym0PZYbEOoqS5fnoMUira4W1XxRleg3cqYZvkT/x5GT1+bmtVr3NKbHp73PUhDZYr6t4P6yEe4zblVO/rytYO6caJGWgBsWCgos7/J4bCr5Uj4tPo6eKR3HdFPqdVOrdcJ0GClFfBJGOmCey5IgCTloV1PwKe1pjTniAUEWFlaYrNHwYXx58aMoMBsK7k4ouIdHwd0zCr+VlSgqCxAbCy0WkrFI4WcdJEqCLSAgbiT9xA98RjSX2oZFkykeEGqDYyBXa/CMz+4mf0/u/tkLQJTtApDxPjBAXcF7AagHziYweNpaCDxkLZgrBSGShIyrKJAu15R5FmAGhLwtUCi3kcL4LqQY7wOT0hV8uKlDhSSJAl94zOc8DJRyGWouecg5lcy1Tp0BQW+LF+baeOHuLrwY7wPz0hW8r9EEmbINpnVzyw3xm9kStbMloS4BIiIIvcR3t4wlzBMPCHxb7HDv/Vrz41NJ+syjoDwWERclJHgp8SEQUsmQqNCPLLwMCPl5d1vXt1HgB7tQYLwPTEFX8F4o2HK13XKxxUZAA/wS6zWNwGVR4CVaR0QBEM77RKyutS8H2jvIAKD20D/s5Hj+LuQY7wOT0xW8H3Jsk8c6d0QjvibtdxqJAwUivIuQxI+s1NRT5+Wwt8SMF7x3m5fvK6x/V2E9XpjgFIVmRPFAR3jwLgkSGkQGgITbflVh8YCgnzd5/NDGQhjtwoLxPjALXcF7YmHbzyqbC6tfVqFpCFQ3DYGBhMRXCaN+oJitj6wyxQNC7b1kEFh76CZ2goJwF4KM94EJ6greF0HWbz/MNoVki4AHDQIEBHhhGEahF6hkCz1mDg0IfFvsBNF79+mzg/7lEg2zcZ2ilgnaROY/n9tK3MPqVLDaaTZtKjldPhPWPMz0qZTT5Ucoyzr0wTnO58YmUrPH12m1rM9NpqI0RMh8dlRm8miujma5gvRoLc3RZDZbVCJJ4fp8rNTVRp61ZzcPZv794CNHrFYN3wZDdZZnFXyrjOG5YH/gE96ABuRUArp+FenC2KcZlhPLJizGxPh0+lVp9GaaMhPz8ku+YzFFLvE84ycB4lWeNm3W5OgfNfLUKHEtlmkudtq1jTDSlquzd07wyLHnOMdtUWcCA9NXSdqEWlRkv7iKz4/W9BxR4ukM36oN2FCuHRdd/htobhSv0a6NtYjnboj30l+/cQGri82vKPJN9/T/ywc1QwFxOH0U827a3Ofrhj4QaLzPT4X89y5vpmDd00+XzZsPIqk/3j2veqE3Bh6/A0iYIk8sIAAA</data>
+        <document_id display_value="Created 2025-12-16 17:26:07">8229171abf31fe105b970afe2790da57</document_id>
+        <field>flow_structure</field>
+        <length>1616</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>8a29171ac331fe108568f1d4e4013158</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <document_id display_value="Created 2025-12-16 17:26:07">8229171abf31fe105b970afe2790da57</document_id>
+        <field>instructions</field>
+        <length>2372</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>4229171ac331fe108568f1d4e4013158</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_flow_compiled_flow_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/6tWyswrLikqTS7JzM/zTAnJD0rNzS9L9U6tdEosSc5QsqqurQUAOtk80SQAAAA=</data>
+        <document_id display_value="Created 2025-12-16 17:26:07">8229171abf31fe105b970afe2790da57</document_id>
+        <field>runtime_value_metadata</field>
+        <length>76</length>
+        <position>0</position>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>c229171ac331fe108568f1d4e4013159</sys_id>
+    </sys_flow_compiled_flow_chunk>
+    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=8df474fe75f5ba9e7b13268037a63b8e^sys_idNOT IN8df474fe75f5ba9e7b13268037a63b8e"/>
+    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
+        <label/>
+        <name/>
+        <playbook_inputs/>
+        <playbook_inputs/>
+        <process_definition display_value="1日の勤怠時間入力手順">80e60a02c3753e108568f1d4e40131ab</process_definition>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 08:12:48</sys_created_on>
+        <sys_id>8df474fe75f5ba9e7b13268037a63b8e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 01:20:03</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create or Update">789911170f1200108c87f4f0ff767e27</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=8df474fe75f5ba9e7b13268037a63b8e"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>8df474fe75f5ba9e7b13268037a63b8e</documentkey>
+        <fieldname>label</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 08:12:48</sys_created_on>
+        <sys_id>c18c8a82c3b53e108568f1d4e401315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 08:12:48</sys_updated_on>
+        <tablename>sys_pd_trigger_instance</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=8df474fe75f5ba9e7b13268037a63b8e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>8df474fe75f5ba9e7b13268037a63b8e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 01:20:03</sys_created_on>
+        <sys_id>bca7f19ac3b1be108568f1d4e40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 01:20:03</sys_updated_on>
+        <value>{{triggerRecord}}</value>
+        <variable display_value="親レコード">c3e6ca02c3753e108568f1d4e4013147</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>8df474fe75f5ba9e7b13268037a63b8e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 08:12:48</sys_created_on>
+        <sys_id>d18cca82c3b53e108568f1d4e401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 08:12:48</sys_updated_on>
+        <value>x_1813832_0_working_hours_table</value>
+        <variable display_value="Table">28eef8d1ff2200108c8733af793bf14a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8df474fe75f5ba9e7b13268037a63b8e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parent_record</field>
+        <id>8df474fe75f5ba9e7b13268037a63b8e</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 08:12:48</sys_created_on>
+        <sys_id>118cca82c3b53e108568f1d4e401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 08:12:48</sys_updated_on>
+        <table>var__m_sys_pd_process_input_80e60a02c3753e108568f1d4e40131ab</table>
+        <value>{{triggerRecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>test</field>
+        <id>8df474fe75f5ba9e7b13268037a63b8e</id>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 01:20:03</sys_created_on>
+        <sys_id>38a7f19ac3b1be108568f1d4e40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 01:20:03</sys_updated_on>
+        <table>var__m_sys_pd_process_input_80e60a02c3753e108568f1d4e40131ab</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8df474fe75f5ba9e7b13268037a63b8e^sys_idNOT INc229171ac331fe108568f1d4e4013152"/>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"trigger_on_unique_change":"false","test":{"elementMapping":null,"variableValue":null,"elementMappingOrVariableValue":null},"parent_record":{"elementMapping":"{{triggerRecord}}","variableValue":"{{triggerRecord}}","elementMappingOrVariableValue":"{{triggerRecord}}"}}</data>
+        <identifier>8df474fe75f5ba9e7b13268037a63b8e</identifier>
+        <runner>PDTriggerRunner</runner>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_id>c229171ac331fe108568f1d4e4013152</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
+        <trigger display_value="">c629171ac331fe108568f1d4e4013151</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="delete_multiple" query="document_id=c229171ac331fe108568f1d4e4013152"/>
+    <sys_flow_record_trigger action="delete_multiple" query="sys_id=c629171ac331fe108568f1d4e4013151^sys_idNOT INc629171ac331fe108568f1d4e4013151"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1813832_0_working_hours_table">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 08:26:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c629171ac331fe108568f1d4e4013151</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
+        <table>x_1813832_0_working_hours_table</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state>{"diagram":{"hiddenElements":{"edges":{}}}}</designer_state>
+        <engine_major_version/>
+        <label>1日の勤怠時間入力手順</label>
+        <name>1_</name>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type/>
+        <restartable>RESTARTABLE_TRUE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_always</run_strategy>
+        <run_strategy_on_process_definition>true</run_strategy_on_process_definition>
+        <schema_version>3</schema_version>
+        <snapshot display_value="1_">8a29171ac331fe108568f1d4e4013152</snapshot>
+        <start_non_blocking>true</start_non_blocking>
+        <status>published</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 07:48:09</sys_created_on>
+        <sys_id>80e60a02c3753e108568f1d4e40131ab</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>1日の勤怠時間入力手順</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_process_definition_80e60a02c3753e108568f1d4e40131ab</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 08:26:07</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=80e60a02c3753e108568f1d4e40131ab"/>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <exclude_attachments_in_now_assist_genius_results>false</exclude_attachments_in_now_assist_genius_results>
+        <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
+        <exclude_in_regular_search>false</exclude_in_regular_search>
+        <profile display_value="home Search Profile">e83d3ccedb79fa10eabdd638f0abfb32</profile>
+        <search_source display_value="毎月の勤務時間記録">563d3002c3b9fa108568f1d4e40131f9</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 02:26:21</sys_created_on>
+        <sys_id>163d3002c3b9fa108568f1d4e40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>home Search Profile.毎月の勤務時間記録</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_163d3002c3b9fa108568f1d4e40131fe</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 02:26:21</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

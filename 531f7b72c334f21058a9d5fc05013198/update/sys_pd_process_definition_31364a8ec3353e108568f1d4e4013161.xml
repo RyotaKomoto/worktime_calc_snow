@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <engine_major_version/>
+        <label/>
+        <name/>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>false</run_strategy_on_process_definition>
+        <schema_version/>
+        <snapshot/>
+        <start_non_blocking>false</start_non_blocking>
+        <status>draft</status>
+        <sync_state>IN_PROGRESS</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>31364a8ec3353e108568f1d4e4013161</sys_id>
+        <sys_mod_count/>
+        <sys_name/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_process_definition_31364a8ec3353e108568f1d4e4013161</sys_update_name>
+        <sys_updated_by/>
+        <sys_updated_on>2025-12-15 07:47:38</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=31364a8ec3353e108568f1d4e4013161"/>
+    <sys_pd_process_input action="delete_multiple" query="model=31364a8ec3353e108568f1d4e4013161"/>
+    <sys_pd_process_output action="delete_multiple" query="model=31364a8ec3353e108568f1d4e4013161"/>
+    <sys_pd_lane action="delete_multiple" query="process_definition=31364a8ec3353e108568f1d4e4013161"/>
+    <sys_pd_timer_attributes action="delete_multiple" query="process_definition=31364a8ec3353e108568f1d4e4013161"/>
+    <sys_pd_activity action="delete_multiple" query="process_definition=31364a8ec3353e108568f1d4e4013161"/>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=31364a8ec3353e108568f1d4e4013161"/>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <engine_major_version/>
+        <label/>
+        <name/>
+        <now_assist_prompt/>
+        <permission>{}</permission>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <run_strategy>run_once</run_strategy>
+        <run_strategy_on_process_definition>false</run_strategy_on_process_definition>
+        <schema_version/>
+        <snapshot/>
+        <start_non_blocking>false</start_non_blocking>
+        <status>draft</status>
+        <sync_state>COMPLETE</sync_state>
+        <synced_on/>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_id>31364a8ec3353e108568f1d4e4013161</sys_id>
+        <sys_mod_count/>
+        <sys_name/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_pd_process_definition_31364a8ec3353e108568f1d4e4013161</sys_update_name>
+        <sys_updated_by/>
+        <sys_updated_on>2025-12-15 07:47:38</sys_updated_on>
+        <view_type>DIAGRAM</view_type>
+    </sys_pd_process_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=31364a8ec3353e108568f1d4e4013161"/>
+</record_update>

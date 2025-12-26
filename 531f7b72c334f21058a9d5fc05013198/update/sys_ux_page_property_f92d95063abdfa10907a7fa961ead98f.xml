@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="勤怠時間管理">3d2d950671bdfa10cafbdd916899fca1</page>
+        <required_translations>[ {
+  "message" : "新規Working Hours Table",
+  "code" : "",
+  "comment" : ""
+}, {
+  "message" : "新規毎月の勤務時間記録",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 04:45:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>f92d95063abdfa10907a7fa961ead98f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_ux_page_property_f92d95063abdfa10907a7fa961ead98f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 04:45:57</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1813832_0.3d2d950671bdfa10cafbdd916899fca1.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"新規Working Hours Table"},"routeInfo":{"route":"record","fields":{"table":"x_1813832_0_working_hours_table","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1813832_0_working_hours_table","canCreate":true}}},{"label":{"translatable":true,"message":"新規毎月の勤務時間記録"},"routeInfo":{"route":"record","fields":{"table":"x_1813832_0_x_monthly_working_hours","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1813832_0_x_monthly_working_hours","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=f92d95063abdfa10907a7fa961ead98f"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f92d95063abdfa10907a7fa961ead98f</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 04:45:57</sys_created_on>
+        <sys_id>872d5906c3bdfa108568f1d4e401315e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 04:45:57</sys_updated_on>
+        <tablename>sys_ux_page_property</tablename>
+        <value>Tabs Configuration</value>
+    </sys_translated_text>
+</record_update>

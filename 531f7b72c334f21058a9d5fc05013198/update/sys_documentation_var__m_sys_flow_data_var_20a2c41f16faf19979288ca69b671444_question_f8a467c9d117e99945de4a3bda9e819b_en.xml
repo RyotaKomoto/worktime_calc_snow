@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="question_f8a467c9d117e99945de4a3bda9e819b" label="時間を入力してください。" language="en" table="var__m_sys_flow_data_var_20a2c41f16faf19979288ca69b671444">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>question_f8a467c9d117e99945de4a3bda9e819b</element>
+            <help/>
+            <hint/>
+            <label>時間を入力してください。</label>
+            <language>en</language>
+            <name>var__m_sys_flow_data_var_20a2c41f16faf19979288ca69b671444</name>
+            <plural>時間を入力してください。</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 07:09:03</sys_created_on>
+            <sys_id>57ed318ac3f13e108568f1d4e4013162</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>時間を入力してください。</sys_name>
+            <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_flow_data_var_20a2c41f16faf19979288ca69b671444_question_f8a467c9d117e99945de4a3bda9e819b_en</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 07:10:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
