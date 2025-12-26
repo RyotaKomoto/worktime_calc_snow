@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_service_plan">
+    <one_api_service_plan action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_processor/>
+        <name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</name>
+        <output_processor display_value="OneExtendOutputProcessor">250bd34353111110c271ddeeff7b12da</output_processor>
+        <sys_class_name>one_api_service_plan</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 01:10:24</sys_created_on>
+        <sys_id>39dbe086c3f5fa108568f1d4e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>one_api_service_plan_39dbe086c3f5fa108568f1d4e40131a9</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 01:10:24</sys_updated_on>
+        <timeout_ms>240000</timeout_ms>
+    </one_api_service_plan>
+</record_update>

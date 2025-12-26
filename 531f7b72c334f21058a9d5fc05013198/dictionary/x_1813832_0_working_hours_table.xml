@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d8c7c083c374f21058a9d5fc05013142" label="Working Hours Table" max_length="40" name="x_1813832_0_working_hours_table" text_index="true" type="collection">
+        <element label="勤務開始時間" max_length="255" name="work_start_tim0" type="glide_date_time"/>
+        <element label="対象月" max_length="7" name="target" type="string"/>
+        <element label="Date" max_length="40" name="today" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="勤務形態" max_length="40" name="attendance_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="出社" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="在宅勤務" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="退勤時間" max_length="40" name="work_endtime" type="glide_date_time"/>
+        <element label="年月日" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="労働時間" max_length="100" name="work_time" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="所属" max_length="32" name="user_affiliation" read_only="true" reference="cmn_department" type="reference"/>
+        <element default="勤務中" label="ステータス" max_length="40" name="status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="労働時間2" max_length="40" name="work_time2" type="float"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="ユーザー名" max_length="32" name="user_name" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="user_affiliation"/>
+        </index>
+        <index name="index2">
+            <element name="user_name"/>
+        </index>
+    </element>
+</database>

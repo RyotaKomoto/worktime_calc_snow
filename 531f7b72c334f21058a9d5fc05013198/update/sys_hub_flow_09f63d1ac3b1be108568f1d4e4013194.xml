@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>end_flow</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>end flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 01:17:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09f63d1ac3b1be108568f1d4e4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>end flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_hub_flow_09f63d1ac3b1be108568f1d4e4013194</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 01:17:04</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>09f63d1ac3b1be108568f1d4e4013194</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 01:17:04</sys_created_on>
+        <sys_id>89f63d1ac3b1be108568f1d4e4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 01:17:04</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=09f63d1ac3b1be108568f1d4e4013194^sys_idNOT INc1f67d1ac3b1be108568f1d4e40131a3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>09f63d1ac3b1be108568f1d4e4013194</id>
+        <name>end flow</name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-16 01:17:04</sys_created_on>
+        <sys_id>c1f67d1ac3b1be108568f1d4e40131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-16 01:17:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c1f67d1ac3b1be108568f1d4e40131a3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=09f63d1ac3b1be108568f1d4e4013194"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=09f63d1ac3b1be108568f1d4e4013194"/>
+</record_update>

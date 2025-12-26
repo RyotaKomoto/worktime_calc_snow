@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code>playbook_80e60a02c3753e108568f1d4e40131ab</code>
+        <commented_message/>
+        <key>入力処理</key>
+        <language>ja</language>
+        <message>入力処理</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 08:39:21</sys_created_on>
+        <sys_id>c292de82c3f53e108568f1d4e401313f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>入力処理</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_ui_message_c292de82c3f53e108568f1d4e401313f</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 08:39:21</sys_updated_on>
+    </sys_ui_message>
+</record_update>

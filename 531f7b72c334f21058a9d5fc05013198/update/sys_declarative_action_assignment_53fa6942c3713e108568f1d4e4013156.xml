@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes>{"activityView":"stacked","enableFullWidthCards":"false","hideBackToPlaybookLink":"false","playbookExperienceId":"98e09a560f2200102920c912d4767e1a","parentSysId":"{​{sysId}}","parentTable":"{​{table}}","compactMode":"false","recordGeneratorQuery":"","isNewParentRecord":"{​{isNewRecord}}"}</action_attributes>
+        <action_name>playbook</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <animate_icon>false</animate_icon>
+        <button_position>right</button_position>
+        <button_type>primary</button_type>
+        <client_action/>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>action_component</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <dynamic_record_condition/>
+        <dynamic_script_condition/>
+        <enable_dynamic_evaluation>false</enable_dynamic_evaluation>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position>related_item</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>プレイブック</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <required_translations/>
+        <required_user_role_names/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <scripted_client_condition/>
+        <server_script/>
+        <specificity>12</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 05:47:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53fa6942c3713e108568f1d4e4013156</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>playbook</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_53fa6942c3713e108568f1d4e4013156</sys_update_name>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 05:58:42</sys_updated_on>
+        <table>x_1813832_0_working_hours_table</table>
+        <tooltip/>
+        <ui_component display_value="now-playbook-experience">9d0bc73916d784d8692b89e9553124dc</ui_component>
+        <view display_value="Workspace" name="workspace">4077c54183a13210470dcbc6feaad340</view>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=53fa6942c3713e108568f1d4e4013156"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>53fa6942c3713e108568f1d4e4013156</documentkey>
+        <fieldname>confirmation_message</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 05:47:37</sys_created_on>
+        <sys_id>5a4ba182c3713e108568f1d4e40131a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 05:47:37</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>53fa6942c3713e108568f1d4e4013156</documentkey>
+        <fieldname>label</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 05:47:37</sys_created_on>
+        <sys_id>de4ba182c3713e108568f1d4e40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 05:47:37</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value>プレイブック</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>53fa6942c3713e108568f1d4e4013156</documentkey>
+        <fieldname>tooltip</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+        <sys_created_on>2025-12-15 05:47:37</sys_created_on>
+        <sys_id>924ba182c3713e108568f1d4e40131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+        <sys_updated_on>2025-12-15 05:47:37</sys_updated_on>
+        <tablename>sys_declarative_action_assignment</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>
