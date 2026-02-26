@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>outputs</element>
+            <list_id display_value="v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2" element="NULL" name="v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2" parent="NULL" relationship="NULL" sys_domain="global" view="ed95814183213210470dcbc6feaad3ce">53381506c37dfa108568f1d4e40131d8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 04:24:24</sys_created_on>
+            <sys_id>1b381506c37dfa108568f1d4e40131d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 04:24:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2" element="NULL" name="v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2" parent="NULL" relationship="NULL" sys_domain="global" view="ed95814183213210470dcbc6feaad3ce">53381506c37dfa108568f1d4e40131d8</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 04:24:24</sys_created_on>
+            <sys_id>97381506c37dfa108568f1d4e40131da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 04:24:24</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 04:24:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53381506c37dfa108568f1d4e40131d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2</sys_name>
+            <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+            <sys_update_name>sys_ui_list_v_pd_activity_condition_to_run__sys_id__7e25b2907e2532a07e25e6907e25a2f0__lvl2_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 04:24:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">ed95814183213210470dcbc6feaad3ce</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

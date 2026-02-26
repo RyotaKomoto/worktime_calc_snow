@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="">563d3002c3b9fa108568f1d4e40131f9</ais_search_source>
+        <ais_search_source display_value="毎月の勤務時間記録">563d3002c3b9fa108568f1d4e40131f9</ais_search_source>
         <label>毎月の勤務時間記録</label>
         <name>毎月の勤務時間記録</name>
         <order>200</order>

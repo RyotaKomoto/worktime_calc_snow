@@ -4,7 +4,7 @@
         <exclude_in_now_assist_genius_results>false</exclude_in_now_assist_genius_results>
         <exclude_in_regular_search>false</exclude_in_regular_search>
         <profile display_value="ktkr Search Profile">392d95061fbdfa10188568aa0b7ac7a1</profile>
-        <search_source display_value="">4a3d3002c3b9fa108568f1d4e4013126</search_source>
+        <search_source display_value="Working Hours Table">4a3d3002c3b9fa108568f1d4e4013126</search_source>
         <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
         <sys_created_by>admin_fujisawa_shouma</sys_created_by>
         <sys_created_on>2025-12-15 04:45:57</sys_created_on>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="var__m_sys_flow_data_var_7b6192cec3b53e1" section_id="ff6192cec3b53e108568f1d4e401317b" sys_domain="global" table="var__m_sys_flow_data_var_7b6192cec3b53e108568f1d4e401317a" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>question_79b7a620a902b60c41994dfd3f5650d2</element>
+            <position>0</position>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 08:34:17</sys_created_on>
+            <sys_id>b36156cec3b53e108568f1d4e401313d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="var__m_sys_flow_data_var_7b6192cec3b53e1" display_value="var__m_sys_flow_data_var_7b6192cec3b53e1" name="var__m_sys_flow_data_var_7b6192cec3b53e108568f1d4e401317a" sys_domain="global" view="Default view">ff6192cec3b53e108568f1d4e401317b</sys_ui_section>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 08:34:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>var__m_sys_flow_data_var_7b6192cec3b53e1</caption>
+            <header>false</header>
+            <name>var__m_sys_flow_data_var_7b6192cec3b53e108568f1d4e401317a</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin_fujisawa_shouma</sys_created_by>
+            <sys_created_on>2025-12-15 08:34:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff6192cec3b53e108568f1d4e401317b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>var__m_sys_flow_data_var_7b6192cec3b53e108568f1d4e401317a</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+            <sys_update_name>sys_ui_section_ff6192cec3b53e108568f1d4e401317b</sys_update_name>
+            <sys_updated_by>admin_fujisawa_shouma</sys_updated_by>
+            <sys_updated_on>2025-12-15 08:34:16</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

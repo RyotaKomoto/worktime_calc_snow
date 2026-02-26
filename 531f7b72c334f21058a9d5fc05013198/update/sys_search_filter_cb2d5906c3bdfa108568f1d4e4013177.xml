@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
     <sys_search_filter action="INSERT_OR_UPDATE">
         <active>true</active>
-        <ais_search_source display_value="">4a3d3002c3b9fa108568f1d4e4013126</ais_search_source>
+        <ais_search_source display_value="Working Hours Table">4a3d3002c3b9fa108568f1d4e4013126</ais_search_source>
         <label>Working Hours Table</label>
         <name>Working Hours Table</name>
         <order>100</order>

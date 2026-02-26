@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="勤怠時間管理WS">fc845abc969e321094f7dcf1c1725f9b</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-05 08:06:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>74845abc889e32109698d145bd268b7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+        <sys_update_name>sys_ux_page_property_74845abc889e32109698d145bd268b7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-05 08:06:45</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1813832_0.fc845abc969e321094f7dcf1c1725f9b.root.globalSearchDataConfigId</unique_name>
+        <value>3c845abc779e321016524b8bde651c91</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=74845abc889e32109698d145bd268b7b"/>
+</record_update>
