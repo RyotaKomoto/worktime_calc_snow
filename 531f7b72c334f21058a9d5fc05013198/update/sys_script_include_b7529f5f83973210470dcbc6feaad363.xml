@@ -15,6 +15,14 @@ test.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		if(v === null || v ===undefined)return true;
 		var s = ('' + v).trim();
 		return s.length === 0;
+	getDisplayBySysId:function(tableName, sysId) {
+		if(this.isBlank(tableName) || this.isBlank(sysId)) return '';
+
+		var gr = new GlideRecord(tableName);
+		if(!gr.isValid()) return '';
+		if(!gr.get(sysId)) return '';
+
+		return gr.getDisplayValue();
 	},
     type: 'test'
 });]]></script>
