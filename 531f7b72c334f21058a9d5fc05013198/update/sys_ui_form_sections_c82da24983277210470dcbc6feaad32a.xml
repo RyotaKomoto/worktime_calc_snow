@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c82da24983277210470dcbc6feaad32a" sys_domain="global" table="x_1813832_0_workstyle" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin_komoto_ryota</sys_created_by>
+            <sys_created_on>2026-03-09 07:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c2da24983277210470dcbc6feaad330</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1813832_0_workstyle" name="x_1813832_0_workstyle" sys_domain="global" view="Default view">c82da24983277210470dcbc6feaad32a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1813832_0_workstyle" sys_domain="global" view="Default view">41a9e2f9c381f21058a9d5fc050131ab</sys_ui_section>
+            <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+            <sys_updated_on>2026-03-09 07:51:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin_komoto_ryota</sys_created_by>
+            <sys_created_on>2026-03-09 07:51:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>442da24983277210470dcbc6feaad332</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1813832_0_workstyle" name="x_1813832_0_workstyle" sys_domain="global" view="Default view">c82da24983277210470dcbc6feaad32a</sys_ui_form>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1813832_0_workstyle" sys_domain="global" view="Default view">4c2d624983277210470dcbc6feaad3e7</sys_ui_section>
+            <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+            <sys_updated_on>2026-03-09 07:51:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1813832_0_workstyle</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin_komoto_ryota</sys_created_by>
+            <sys_created_on>2026-03-09 07:51:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c82da24983277210470dcbc6feaad32a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1813832_0_workstyle</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c82da24983277210470dcbc6feaad32a</sys_update_name>
+            <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+            <sys_updated_on>2026-03-09 07:51:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
