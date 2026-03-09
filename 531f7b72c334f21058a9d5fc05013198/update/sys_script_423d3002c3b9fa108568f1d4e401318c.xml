@@ -27,7 +27,8 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+        <script><![CDATA[// コメント
+(function executeRule(current, previous /*null when async*/ ) {
 	// no commit
 	new global.AisDisableSearchSignalEvent().disable(current.sys_id);
 })(current, previous);]]></script>
@@ -37,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>423d3002c3b9fa108568f1d4e401318c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Disable x_1813832_0_workstyle inactive c</sys_name>
         <sys_overrides/>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
@@ -45,7 +46,7 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name>sys_script_423d3002c3b9fa108568f1d4e401318c</sys_update_name>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2026-02-26 04:02:04</sys_updated_on>
+        <sys_updated_on>2026-03-09 01:31:09</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
