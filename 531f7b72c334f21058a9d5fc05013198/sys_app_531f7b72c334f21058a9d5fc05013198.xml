@@ -32,16 +32,16 @@
         <sys_created_by>admin_komoto_ryota</sys_created_by>
         <sys_created_on>2025-10-29 07:26:08</sys_created_on>
         <sys_id>531f7b72c334f21058a9d5fc05013198</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2026-03-04 05:04:05</sys_updated_on>
+        <sys_updated_on>2026-03-09 01:40:06</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>2</version>
+        <version>3</version>
     </sys_app>
     <sys_translated_text action="delete_multiple" query="documentkey=531f7b72c334f21058a9d5fc05013198"/>
 </record_update>

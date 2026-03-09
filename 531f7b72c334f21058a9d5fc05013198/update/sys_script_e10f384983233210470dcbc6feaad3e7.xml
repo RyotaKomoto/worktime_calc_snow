@@ -34,6 +34,7 @@
 	while(gr.next()) {
 		gs.info(gr);
 	}
+	gs.addErrorMessage('テストです。');
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
@@ -41,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e10f384983233210470dcbc6feaad3e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
@@ -49,7 +50,7 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name>sys_script_e10f384983233210470dcbc6feaad3e7</sys_update_name>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2026-03-08 23:56:50</sys_updated_on>
+        <sys_updated_on>2026-03-09 02:25:02</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

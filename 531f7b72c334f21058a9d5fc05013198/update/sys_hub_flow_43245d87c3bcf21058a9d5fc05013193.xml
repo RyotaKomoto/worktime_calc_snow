@@ -44,11 +44,11 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name>sys_hub_flow_43245d87c3bcf21058a9d5fc05013193</sys_update_name>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2025-12-26 01:29:56</sys_updated_on>
+        <sys_updated_on>2026-03-09 01:37:25</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record display_value="Created 2025-12-26 16:02:25">55e526a1834e7610470dcbc6feaad3e6</version_record>
+        <version_record/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=43245d87c3bcf21058a9d5fc05013193"/>
     <sys_translated_text action="INSERT_OR_UPDATE">
