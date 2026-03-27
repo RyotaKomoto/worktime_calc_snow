@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6a27eb7383a77e50470dcbc6feaad34a" label="Day1 table" max_length="40" name="x_1813832_0_day1_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="choice" max_length="40" name="choice" type="choice">
+            <choice/>
+        </element>
+        <element label="test" max_length="40" name="test" type="string"/>
+    </element>
+</database>
