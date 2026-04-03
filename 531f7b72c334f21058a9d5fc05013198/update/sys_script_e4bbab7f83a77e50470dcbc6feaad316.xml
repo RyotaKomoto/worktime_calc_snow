@@ -28,12 +28,14 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	var gr = new GlideRecord('x_1813832_0_day1_table');
-	gr.addQuery('test', 'x');
+	var gr = new GlideRecord('x_1882833_organi_0_meisai');
+	gr.addQuery('kenmu_number', 1);
 	gr.query();
 
 	while(gr.next()) {
-		current.test = 'y';
+		if(gr.kenmu_number != 1) {
+			current.test = gr.kenmu_number;
+		}
 	}
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -42,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e4bbab7f83a77e50470dcbc6feaad316</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Business Rule 1</sys_name>
         <sys_overrides/>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
@@ -50,9 +52,22 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name>sys_script_e4bbab7f83a77e50470dcbc6feaad316</sys_update_name>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2026-03-18 01:30:16</sys_updated_on>
+        <sys_updated_on>2026-04-03 00:26:11</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=e4bbab7f83a77e50470dcbc6feaad316"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>e4bbab7f83a77e50470dcbc6feaad316</documentkey>
+        <fieldname>message</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin_komoto_ryota</sys_created_by>
+        <sys_created_on>2026-04-03 00:26:11</sys_created_on>
+        <sys_id>b407b90983484354470dcbc6feaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin_komoto_ryota</sys_updated_by>
+        <sys_updated_on>2026-04-03 00:26:11</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
 </record_update>
