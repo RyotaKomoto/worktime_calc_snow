@@ -44,13 +44,6 @@
 	var gr2 = new GlideRecord('x_1882833_organi_0_shozoku');
 	gr.query();
 
-	while (gr2.next()){
-		if(gr2.kenmu_number == 1){
-			current.sys_id = gr2.sys_id;
-			current.update();	
-		}
-	}
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin_komoto_ryota</sys_created_by>
@@ -58,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5d538ee18354c310470dcbc6feaad3fe</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>検証用ビジネスルール</sys_name>
         <sys_overrides/>
         <sys_package display_value="勤怠時間管理" source="x_1813832_0">531f7b72c334f21058a9d5fc05013198</sys_package>
@@ -66,7 +59,7 @@
         <sys_scope display_value="勤怠時間管理">531f7b72c334f21058a9d5fc05013198</sys_scope>
         <sys_update_name>sys_script_5d538ee18354c310470dcbc6feaad3fe</sys_update_name>
         <sys_updated_by>admin_komoto_ryota</sys_updated_by>
-        <sys_updated_on>2026-04-17 01:19:59</sys_updated_on>
+        <sys_updated_on>2026-04-17 01:24:09</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
